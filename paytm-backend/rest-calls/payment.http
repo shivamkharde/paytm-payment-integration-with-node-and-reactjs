@@ -1,0 +1,12 @@
+### route for payment
+POST http://localhost:5500/payment/paynow
+Content-Type: "application/json"
+
+{
+    "mobile": 9867578956,
+    "email": "xyz@gmail.com",
+    "amount": 120.00 
+}
+
+### roy=ute for succcessfull callback
+POST http://localhost:5500/callback

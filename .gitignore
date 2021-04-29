@@ -1,0 +1,6 @@
+/paytm-backend/node_modules
+/paytm-backend/.env
+
+/paytm-frontend/node_modules
+/paytm-frontend/build
+/paytm-frontend/.env
